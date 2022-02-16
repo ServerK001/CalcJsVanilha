@@ -1,14 +1,8 @@
 @font-face { font-family: DisplayOFT; 
     src: url('./font/DisplayOTF.otf'); } 
 
-    * {
-        box-sizing: border-box;
-        outline: 0;
-      }
-      
-
 :root{
-    --btn: #55554a;
+    --btn: #44443c;
     --font-display:#435338;
     --displayBG:#a7af7c;
     --bgCalc:#90FFFF;
@@ -152,14 +146,14 @@ html, body{
 }
 
 .vidro_3{
-    background-color: var(--btn_4);
-	width: 3rem;
-	height: 3rem;
+    background-color: var(--btn_2);
+	width: 8rem;
+	height: 8rem;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);	
 	border-radius: 50%;
 	position: absolute;
-    top: 73vh;
-    right: 87vh;
+    top: 20vh;
+    right: 85vh;
 	z-index: 0;
 	
 

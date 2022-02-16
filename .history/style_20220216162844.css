@@ -1,12 +1,6 @@
 @font-face { font-family: DisplayOFT; 
     src: url('./font/DisplayOTF.otf'); } 
 
-    * {
-        box-sizing: border-box;
-        outline: 0;
-      }
-      
-
 :root{
     --btn: #55554a;
     --font-display:#435338;
@@ -152,7 +146,7 @@ html, body{
 }
 
 .vidro_3{
-    background-color: var(--btn_4);
+    background-color: var(--btn_);
 	width: 3rem;
 	height: 3rem;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);	
